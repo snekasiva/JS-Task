@@ -1,0 +1,21 @@
+const arr=[
+    {firstName:"sree",LastName:"sai",age:30},
+    {firstName:"sree1",LastName:"sai1",age:30},
+    {firstName:"sree2",LastName:"sai2",age:30},
+    {firstName:"sree3",LastName:"sai3",age:30},
+    ]
+    const op=arr.map((x)=>{
+       return x.firstName+x.LastName
+    })
+    console.log(op)
+    const max=[2,4,54,6,21,3]
+    function FindMax(arr){
+        let max1=0;
+        for(let i=0;i<arr.length;i++){
+            if(arr[i]>max1){
+                max1=arr[i]
+            }
+        }
+        return max1
+    }
+     console.log(FindMax(max))
